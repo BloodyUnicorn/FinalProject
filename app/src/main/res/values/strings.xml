@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="user_name">نام کاربری</string>
+    <string name="password">گذرواژه</string>
+    <string name="login">ورود</string>
+    <string name="email">آدرس ایمیل</string>
+    <string name="remember">مرا به خاطر بسپار</string>
+    <string name="SignUp">ثبت نام</string>
+    <string name="pass_repeat">تکرار گذرواژه</string>
+
+
+    <!-- معرفی تصاویر -->
+    <string name="str_img1">Image1</string>
+    <string name="str_img2">Image2</string>
+    <string name="str_img3">Image3</string>
+    <string name="str_img4">Image4</string>
+
+    <!-- ایجاد دو متن برای دکمه -->
+    <string name="str_btn_start">Start SlideShow</string>
+    <string name="str_btn_stop">Stop SlideShow</string>
+
+    <!--برای نویگیشن بار -->
+    <string name="about_app">این برنامه برای توریست طراحی گردید</string>
+    <string name="about_office">درباره شرکت</string>
+    <string name="about_programmer">درباره برنامه نویس</string>
+
+
+    <!--intro-->
+    <string name="slide1_title">slide1</string>
+    <string name="slide2_title">slide2</string>
+    <string name="slide3_title">slide3</string>
+    <string name="slide4_title">slide4</string>
+    <string name="slide1_subtitle">your text here</string>
+    <string name="slide2_subtitle">your text here</string>
+    <string name="slide3_subtitle">your text here</string>
+    <string name="slide4_subtitle">your text here</string>
+
+
+    //string for progarmmer
+    <string name="str_about_app_titr">گروه برنامه نویسی Dev Man</string>
+    <string name="str_abput_app_site">شماره همراه : 09360192501</string>
+    <string name="str_abput_app_conect">ایمیل ارتباطی : sobhan.zp@hotmail.com</string>
+    <string name="str_about_app">سفارش ساخت اپلیکیشن و برنامه پذیرفته میشود.</string>
+    <string name="str_telegram">ارتباط از طریق تلگرام</string>
+
+
+    //string for office
+    <string name="name_office">شرگت IRea Teach</string>
+    <string name="about_offic">شرکت مدیریت شهری</string>
+    <string name="site_office">www.ireatech.ir</string>
+
+
+    <string name="mojasame_mirza">مجسمه میرزا</string>
+
+
+    <string name="mojasame_akas">مجسمه عکاس</string>
+
+    <string name="enter_shahrdari">ورودی شهرداری </string>
+
+    <string name="alamalhoda">خیابان علم الهدی</string>
+
+    <string name="post">سر در اداره پست</string>
+
+    <string name="text_content" />
+    <string name="camera">اسکنر</string>
+    <string name="profile">پروفایل</string>
+    <string name="music">موزیک</string>
+    <string name="notes">یادداشت</string>
+    <string name="home">خانه</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="name_masjed">نام مسجد : </string>
+    <string name="Address_masjed">آدرس : </string>
+    <string name="history_create">تاریخ احداث : </string>
+    <string name="motavaliyan">متولیان، خادمین و هیأت امنا : </string>
+    <string name="aeme">ائمه جمعه : </string>
+    <string name="location">موقعیت بنا در شهر و محله : </string>
+    <string name="befor_history">پیشینه‌ی تاریخی بنا : </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

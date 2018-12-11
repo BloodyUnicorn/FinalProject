@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/username_signin"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColorHint="@color/grey"
+        android:textColor="#000"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:gravity="right"
+        android:drawableRight="@drawable/ic_person_outline_black_24dp"
+        android:drawableEnd="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="5dp"/>
+
+
+    <EditText
+        android:id="@+id/password_signin"
+        android:layout_below="@id/username_signin"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:textColorHint="@color/grey"
+        android:textColor="#000"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:gravity="end"
+        android:drawableRight="@drawable/ic_lock_outline_black_24dp"
+        android:drawableEnd="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingEnd="10dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkin"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/password_signin"
+        android:layout_centerInParent="true"
+        android:text="@string/remember"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/checkin"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/login"
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
